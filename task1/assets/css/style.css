@@ -23,3 +23,6 @@
   text-align: center;
   width: calc(100% / 3); /* Adjust as needed */
 }
+.icon {
+  display: inline;
+}
