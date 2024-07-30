@@ -17,12 +17,15 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 20px;
+  padding: 10px 70px;
 }
 .card {
-  text-align: center;
-  width: calc(100% / 3); /* Adjust as needed */
+  width: calc(95% / 3); /* Adjust as needed */
 }
 .icon {
   display: inline;
+}
+.text {
+  color: rgb(92 88 88);
+  font-family: monospace;
 }
