@@ -1,6 +1,6 @@
 :root {
-  --font: "Open Sans", sans-serif;
-  --main-color: #f44336;
+  --font: 'Open Sans', sans-serif;
+  --main-color: #ffc107;
 }
 .container {
   width: 90%;
