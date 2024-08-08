@@ -1,6 +1,6 @@
 :root {
   --font: 'Open Sans', sans-serif;
-  --main-color: #0a2d2e;
+  --main-color: #ffc107;
 }
 .container {
   width: 90%;
@@ -24,8 +24,8 @@
 
 .main-services .container .section-heading span {
   display: block;
-  width: 50px;
-  height: 3px;
+  width: 60px;
+  height: 5px;
   background-color: var(--main-color);
   margin: 20px auto 60px;
 }
