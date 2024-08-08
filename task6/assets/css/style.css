@@ -1,6 +1,6 @@
 :root {
-  --font: "Open Sans", sans-serif;
-  --main-color: rgb(64 71 97);
+  --font: 'Open Sans', sans-serif;
+  --main-color: #ff5722;
 }
 .container {
   width: 90%;
@@ -13,17 +13,17 @@
   box-sizing: border-box;
 }
 
-.testemoinails .container .section-heading {
+.charcter .container .section-heading {
   margin: 30px;
   text-align: center;
 }
-.testemoinails .container .section-heading h2 {
+.charcter .container .section-heading h2 {
   font-size: 2em;
   font-family: var(--font);
   text-transform: capitalize;
 }
 
-.testemoinails .container .section-heading span {
+.charcter .container .section-heading span {
   display: block;
   margin: auto;
   margin-bottom: 10px;
@@ -33,7 +33,7 @@
   color: #666;
 }
 
-.testemoinails .container .testemoinails-items {
+.charcter .container .charcter-items {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 30px;
@@ -41,14 +41,14 @@
   padding: 50px 0;
 }
 
-.testemoinails .container .testemoinails-items .testemoinails-item {
+.charcter .container .charcter-items .charcter-item {
   text-align: center;
   position: relative;
   background-color: var(--main-color);
   padding: 70px 70px 50px 70px;
 }
 
-.testemoinails .container .testemoinails-items .testemoinails-item .profile {
+.charcter .container .charcter-items .charcter-item .profile {
   position: absolute;
   top: 0;
   left: 50%;
@@ -56,32 +56,22 @@
   width: 100px;
   height: 100px;
 }
-.testemoinails
-  .container
-  .testemoinails-items
-  .testemoinails-item
-  .profile
-  img {
+.charcter .container .charcter-items .charcter-item .profile img {
   border-radius: 50%;
   max-width: 100%;
   border: 1px solid var(--main-color);
 }
-.testemoinails .container .testemoinails-items .testemoinails-item .star-icons {
+.charcter .container .charcter-items .charcter-item .star-icons {
   display: flex;
   justify-content: center;
   gap: 5px;
   margin-bottom: 20px;
 }
-.testemoinails
-  .container
-  .testemoinails-items
-  .testemoinails-item
-  .star-icons
-  i {
+.charcter .container .charcter-items .charcter-item .star-icons i {
   font-size: 16px;
   color: gold;
 }
-.testemoinails .container .testemoinails-items .testemoinails-item .desc {
+.charcter .container .charcter-items .charcter-item .desc {
   font-size: 16px;
   color: #ddd;
   font-family: var(--font);
@@ -91,7 +81,7 @@
   height: 100px;
   overflow: hidden;
 }
-.testemoinails .container .testemoinails-items .testemoinails-item h3 {
+.charcter .container .charcter-items .charcter-item h3 {
   font-size: 20px;
   color: #fff;
   font-family: var(--font);
@@ -99,7 +89,7 @@
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.testemoinails .container .testemoinails-items .testemoinails-item span {
+.charcter .container .charcter-items .charcter-item span {
   display: block;
   font-size: 16px;
   color: #ddd;
@@ -107,7 +97,7 @@
   font-weight: 300;
   text-transform: capitalize;
 }
-.testemoinails .container .testemoinails-items .testemoinails-item .quote-icon {
+.charcter .container .charcter-items .charcter-item .quote-icon {
   position: absolute;
   right: 100px;
   bottom: 0;
@@ -118,12 +108,7 @@
   transform: translateY(50%);
   box-shadow: 0 0 3px #666;
 }
-.testemoinails
-  .container
-  .testemoinails-items
-  .testemoinails-item
-  .quote-icon
-  i {
+.charcter .container .charcter-items .charcter-item .quote-icon i {
   color: #f00;
   line-height: 60px;
   font-size: 32px;
